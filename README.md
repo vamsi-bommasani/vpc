@@ -78,7 +78,7 @@ No modules.
 | <a name="input_app_id"></a> [app\_id](#input\_app\_id) | provide an app-id | `string` | n/a | yes |
 | <a name="input_aws_region"></a> [aws\_region](#input\_aws\_region) | provide the aws\_region | `string` | n/a | yes |
 | <a name="input_environment"></a> [environment](#input\_environment) | provide some environment name | `string` | n/a | yes |
-| <a name="input_notification_mail"></a> [notification\_mail](#input\_notification\_mail) | provide an engineer email to send mails | `string` | n/a | yes |
+| <a name="input_engineer_mail"></a> [notification\_mail](#input\_notification\_mail) | provide an engineer email to send mails | `string` | n/a | yes |
 | <a name="input_private_subnet_az1"></a> [private\_subnet\_az1](#input\_private\_subnet\_az1) | private Subnet CIDR values | `list(string)` | n/a | yes |
 | <a name="input_private_subnet_az2"></a> [private\_subnet\_az2](#input\_private\_subnet\_az2) | private Subnet CIDR values | `list(string)` | n/a | yes |
 | <a name="input_private_subnet_az3"></a> [private\_subnet\_az3](#input\_private\_subnet\_az3) | private Subnet CIDR values | `list(string)` | n/a | yes |
