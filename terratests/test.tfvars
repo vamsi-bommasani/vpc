@@ -1,7 +1,7 @@
 aws_region         = "us-east-1"
 app_id             = "test-app"
 environment        = "test"
-notification_mail  = "test@example.com"
+engineer_mail      = "test@example.com"
 vpc_cidr           = "10.0.0.0/16"
 public_subnet_az1  = ["10.0.1.0/24"]
 public_subnet_az2  = ["10.0.2.0/24"]
