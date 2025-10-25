@@ -100,3 +100,25 @@ No modules.
 | <a name="output_vpc_cidr_block"></a> [vpc\_cidr\_block](#output\_vpc\_cidr\_block) | The CIDR block of the VPC |
 | <a name="output_vpc_id"></a> [vpc\_id](#output\_vpc\_id) | The ID of the VPC |
 <!-- END_TF_DOCS -->
+
+<!-- Terratest Executions -->
+To run the infrastructure tests using Terratest, follow these steps:
+
+1. Make sure you have Go installed on your system
+2. Navigate to the terratests directory:
+   ```bash
+   cd terratests/
+   ```
+
+3. Download required Go dependencies:
+   ```bash
+   go mod tidy
+   ```
+
+4. Run the tests:
+   ```bash
+   go test -v
+   ```
+
+Note: Make sure you have valid AWS credentials configured before running the tests. The tests will create real AWS resources in your account for validation.
+<!-- END Terratest Executions-->
